@@ -1,0 +1,82 @@
+.menuSection{
+    width: 100%;
+    height: 80px;
+    background-color: #717154;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+   
+}
+
+.menu {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: white;
+}
+.menu  ul{
+ list-style: none;
+ text-decoration: none; 
+}
+.menu  ul li{
+
+}
+
+
+.logo{
+    width: 8%;
+    padding: 1em;    
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    
+
+}
+
+.bannerHeader{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.callToAction{
+    width: 55%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+.imgBanner {
+    width: 30%;   
+    height: 60%;
+    border-left: 5px solid #717154;
+    background-image: url("/img/Designer.jpeg");
+    background-size: cover;
+    border-top-left-radius:50px; 
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+}
+.imgBanner img{
+    width: 100%;
+}
+
+.callToAction button{
+    width: 200px;
+    height: 50px;
+    border: 4px solid #717154;
+}
+
